@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono:pixelsize=16:antialias=true:autohint=true";
+static char *font = "JetBrainsMono Nerd Font:pixelsize=16:antialias=true:autohint=true";
 static char *font2[] = {
 	"Twitter Color Emoji:pixelsize=12:antialias=true:autohint=true",
 	"Noto Color Emoji:pixelsize=12:antialias=true:autohint=true",
