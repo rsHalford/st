@@ -7,8 +7,8 @@
  */
 static char *font = "JetBrainsMono Nerd Font:pixelsize=16:antialias=true:autohint=true";
 static char *font2[] = {
-	"Twitter Color Emoji:pixelsize=12:antialias=true:autohint=true",
-	"Noto Color Emoji:pixelsize=12:antialias=true:autohint=true",
+	"siji:pixelsize=20",
+  "Twitter Color Emoji:pixelsize=14:antialias=true:autohint=true"
 };
 static int borderpx = 0;
 
@@ -119,7 +119,8 @@ static const char *colorname[] = {
   [14] = "#8ec07c", /* cyan    */
   [15] = "#ebdbb2", /* white   */
 
-  [256] = "#1d2021",
+  [256] = "#32302f",
+  [257] = "#1d2021",
 };
 
 /*
@@ -127,7 +128,7 @@ static const char *colorname[] = {
  * foreground, background, cursor
  */
 unsigned int defaultfg = 15;
-unsigned int defaultbg = 256;
+unsigned int defaultbg = 257;
 static unsigned int defaultcs = 15;
 static unsigned int defaultrcs = 257;
 
