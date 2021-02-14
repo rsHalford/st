@@ -7,8 +7,8 @@
  */
 static char *font = "JetBrainsMono Nerd Font:pixelsize=16:antialias=true:autohint=true";
 static char *font2[] = {
+  "JoyPixels:pixelsize=14:antialias=true:autohint=true"
 	"siji:pixelsize=20",
-  "Twitter Color Emoji:pixelsize=14:antialias=true:autohint=true"
 };
 static int borderpx = 5;
 
