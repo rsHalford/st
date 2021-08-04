@@ -7,7 +7,7 @@
  */
 static char *font = "JetBrainsMono Nerd Font:pixelsize=16:antialias=true:autohint=true";
 static char *font2[] = {
-  "FreeMono:style=Bold:pixelsize=16",
+  "FreeMono:style=Bold:pixelsize=20",
   "Unifont:pixelsize=16",
   "JoyPixels:pixelsize=14:antialias=true:autohint=true",
   "siji:pixelsize=20",
