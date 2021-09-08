@@ -15,7 +15,7 @@ static char *font2[] = {
 static int borderpx = 5;
 
 static char *openurlcmd[] = { "/bin/sh", "-c",
-  "xurls | dmenu -w $WINDOWID | xargs -r linkhandler",
+  "grep -oP '(((http|https|ftp|gopher)|mailto)[.:][^ >\"\t]*|www\.[-a-z0-9.]+)[^ .,;\t>\">\):]' | dmenu -w $WINDOWID | xargs -r linkhandler",
   "externalpipe", NULL };
 
 /*
