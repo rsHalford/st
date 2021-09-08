@@ -88,6 +88,7 @@ void redraw(void);
 void draw(void);
 
 void copyurl(const Arg *);
+void externalpipe(const Arg *);
 void kscrolldown(const Arg *);
 void kscrollup(const Arg *);
 void opencopied(const Arg *);

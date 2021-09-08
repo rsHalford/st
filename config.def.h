@@ -11,6 +11,10 @@ static char *font2[] = {
 };
 static int borderpx = 2;
 
+static char *openurlcmd[] = { "/bin/sh", "-c",
+  "xurls | dmenu -w $WINDOWID | xargs -r linkhandler",
+  "externalpipe", NULL };
+
 /*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
@@ -221,6 +225,7 @@ static Shortcut shortcuts[] = {
 	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
 	{ MODKEY,               XK_y,           copyurl,        {.i =  0} },
 	{ MODKEY,               XK_o,           opencopied,     {.v =  "xdg-open"} },
+	{ MODKEY,               XK_u,           externalpipe,   {.v =  openurlcmd} },
 };
 
 /*
